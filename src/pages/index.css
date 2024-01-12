@@ -1,0 +1,184 @@
+.icon-wrapper {
+  margin-right: 0px;
+  visibility: hidden !important;
+  font-size: 14px;
+}
+
+
+
+.item-lista:hover .icon-wrapper {
+  visibility: visible !important ;
+}
+
+
+
+button.ant-btn-primary {
+  box-shadow: 0 !important;
+  background-color: rgb(0, 21, 42)  !important ;
+}
+
+element.style {
+  margin: 5px !important ;
+  background-color: rgb(255, 255, 255) !important;
+  overflow-y: auto !important;
+  border-radius: 10px 10px 0px 0px !important;
+  padding: 10px !important;
+}
+
+
+.item-lista .button-list{
+  background-color: transparent !important;
+  box-shadow: none !important;
+  color: black;
+
+}
+
+.item-lista .button-list:hover {
+  color: black;
+  background-color: transparent !important;
+}
+
+
+.button-criar {
+  margin: 0px 15px 20px 0px;
+  background-color: rgb(0, 21, 42)  !important ;
+  color: aliceblue !important;
+  background-color: null;
+  border-color: null;
+}
+
+
+
+
+
+/* estilo da tabela */
+.ant-table-wrapper .ant-table-container table>tr:first-child >*:first-child {
+  background-color:  rgb(1, 20, 39) !important;
+
+}
+
+/* cor da linha de baixo databela de recursos */
+th.ant-table-cell {
+  background: rgba(83, 83, 83, 0.25) !important;
+  border-bottom: 1px solid rgb(250, 250, 250) !important;
+
+}
+/* cor da linha dos titulos */
+.custom-table-row {
+  background-color: rgba(121, 117, 117, 0.25);
+}
+.custom-table thead tr {
+  background-color:  rgb(0, 21, 42);
+  color: aliceblue;
+}
+
+/**/
+
+
+
+
+td.ant-table-cell {
+  padding: 5px !important;
+  font-size: 12px;
+  font-family:  Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+/* cor da linha de baixo databela de recursos */
+th.ant-table-cell {
+  background-color:  rgb(1, 20, 39) !important;
+  border-bottom: 1px solid rgb(250, 250, 250) !important;
+  padding: 10px 12px 10px 10px!important;
+
+  text-align: center !important;
+}
+.ant-table-column-title {
+  margin-right: 5px;
+}
+/* cor da linha dos titulos */
+.custom-table-row {
+  background-color:  rgb(1, 20, 39) !important;
+}
+.custom-table thead tr {
+  background-color:  rgb(1, 20, 39) !important;
+  color: aliceblue;
+}
+
+/* cor titulo, pesquisa, e ação */
+.ant-table-thead >tr>th, :where(.css-dev-only-do-not-override-rcpgve).ant-table-wrapper .ant-table-thead >tr>td {
+  color: aliceblue !important;
+
+}
+.ant-table-container table>thead>tr:first-child >*:last-child {
+  color: aliceblue !important;
+}
+.ant-table-wrapper .ant-table-filter-trigger {
+  color: aliceblue !important;
+}
+.ant-table-wrapper .ant-table-column-sorters::after {
+  color: aliceblue !important;
+}
+.ant-table-wrapper .ant-table-column-sorter {
+  color: aliceblue !important;
+}
+
+
+
+element.style {
+  margin: 5px !important ;
+  background-color: rgb(255, 255, 255) !important;
+  overflow-y: auto !important;
+  border-radius: 10px 10px 0px 0px !important;
+  padding: 10px !important;
+}
+
+
+:where(.css-dev-only-do-not-override-i0uh1t).ant-modal .ant-modal-footer .ant-btn+.ant-btn:not(.ant-dropdown-trigger) {
+  margin-bottom: 0;
+  margin-inline-start: 8px;
+  color: #fff;
+  background-color: #00152A;
+
+}
+
+:where(.css-dev-only-do-not-override-i0uh1t).ant-btn-primary:not(:disabled):hover {
+  color: black;
+  background-color: transparent;
+}
+
+
+:where(.css-dev-only-do-not-override-i0uh1t).ant-modal .ant-modal-footer {
+  text-align: end;
+  background: transparent;
+  margin: 0;
+  margin-right: 20px !important;
+}
+
+
+
+
+
+:where(.css-dev-only-do-not-override-i0uh1t).ant-upload-wrapper .ant-upload-list .ant-upload-list-item:hover .ant-upload-list-item-action {
+    opacity: 0;
+    color: rgba(0, 0, 0, 0.88);
+}
+
+
+:where(.css-dev-only-do-not-override-w8mnev).ant-table-wrapper .ant-table-tbody >tr >td {
+  transition: background 0.2s,border-color 0.2s;
+  border: 1px solid #302e2e63 !important;
+  border-top: 0px !important;
+  /* border-bottom: 10px solid #7e747498 !important;*/
+  text-align: center;
+}
+
+
+:where(.css-w8mnev).ant-table-wrapper .ant-table-tbody >tr >th, :where(.css-w8mnev).ant-table-wrapper .ant-table-tbody >tr >td {
+  transition: background 0.2s,border-color 0.2s;
+  border: 1px solid #302e2e63 !important;
+  border-top: 0px !important;
+  /* border-bottom: 10px solid #7e747498 !important;*/
+  text-align: center;
+}
+
+
